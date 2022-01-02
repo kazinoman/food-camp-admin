@@ -4,7 +4,7 @@ import { AppBar, Grid, Toolbar, Typography, Box } from "@mui/material";
 const Nav = () => {
   return (
     <div>
-      <AppBar>
+      <AppBar elevation={0}>
         <Toolbar>
           <Grid container justifyContent="space-between" alignItems="center">
             <Grid item>
@@ -16,7 +16,7 @@ const Nav = () => {
           </Grid>
         </Toolbar>
       </AppBar>
-      <div style={{ marginBottom: "4rem" }} />
+      <div style={{ marginBottom: "3.5rem" }} />
     </div>
   );
 };

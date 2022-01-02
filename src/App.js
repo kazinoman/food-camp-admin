@@ -6,6 +6,7 @@ import "./App.css";
 import theme from "./components/theme";
 import PageRoutes from "./pages/routes";
 import Nav from "./components/nav";
+import List from "./components/list";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <Grid container>
         {/* Menu item  */}
         <Grid item xs={2}>
-          <h4>List item</h4>
+          <List />
         </Grid>
         {/* Main page information */}
         <Grid item xs={10}>
